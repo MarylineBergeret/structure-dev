@@ -1,0 +1,40 @@
+h1{
+    color: blue;
+    text-shadow: 6px -8px 10px violet;
+}
+h1:hover{
+    color: green;
+}
+p:active{
+    background-color: gray;
+}
+#contour{
+    box-shadow: 6px 6px 20px rgba(255, 0, 0, 0.541);
+}
+#moitie{
+    box-shadow: -7px 9px 10px rgba(0, 128, 0, 0.53);
+}
+
+
+a:link{
+    color: orange;
+}
+a:visited{
+    color: rgb(168, 164, 164);
+}
+.photo:hover{
+    display: none;
+}
+li:nth-child(even){
+    color: blue;
+}
+li:nth-child(even):hover{
+    color: black;
+}
+li:nth-child(odd):hover{
+    color: blue;
+
+}
+.pi li:nth-child(odd):hover{
+    color: rgb(176, 22, 22);
+}
